@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <label for="sectionida">
+            <input type="radio" name="Section" value="Section a" id="sectionida"> Section A
+            </label>
+            <label for="sectionidb">
+            <input type="radio" name="Section" value="Section b" id="sectionidb"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" name="Section" value="Section c" id="sectionidc"> Section C
+                </label><br>
+                <input type="checkbox" id="foodcanteen" class="red" name="Canteen">
+                <label for="foodcanteen">Want Food Canteen Card</label><br>
+                <textarea name="Explain" id="explain" cols="30" rows="10" placeholder="Explain Why You Want To Join"></textarea><br>
+                <select name="Car" id="car">Select Your Car
+                    <option value="No-Car">Select Your Car</option>
+                    <option value="omni">Omni</option>
+                    <option value="omni">Omni2</option>
+                    <option value="dzire">Dzire</option>
+                </select>
+        </form>
+    </div>
+</body>
+</html>
